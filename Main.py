@@ -1,4 +1,3 @@
-from distutils.cmd import Command
 from tkinter import *
 from random import randint
 
