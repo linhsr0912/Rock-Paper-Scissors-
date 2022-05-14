@@ -95,8 +95,6 @@ lblresultSystem.grid(row=1 , column=1 , sticky= "nswe")
 frmresult.grid(row=2 , column=0 , sticky= "nswe")
 
 # Lable Reset 
-frmresult.grid(row = 2 , column=0 , sticky= "nswe")
-
 btnReset = Button(master=win , text="Reset" , bg="powder blue", font=("None" ,18 , "bold"), relief="ridge" , command=Reset).grid(row=3 , column=0 , sticky="nswe")
 
 
